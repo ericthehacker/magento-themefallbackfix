@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <EW_ThemeFallbackFix>
+            <version>1.0.0</version>
+        </EW_ThemeFallbackFix>
+    </modules>
+
+    <global>
+        <models>
+            <ew_themefallbackfix>
+                <class>EW_ThemeFallbackFix_Model</class>
+            </ew_themefallbackfix>
+        </models>
+
+        <helpers>
+            <ew_themefallbackfix>
+                <class>EW_ThemeFallbackFix_Helper</class>
+            </ew_themefallbackfix>
+        </helpers>
+    </global>
+
+    <frontend>
+        <events>
+            <core_layout_update_updates_get_after>
+                <observers>
+                    <ew_themefallbackfix>
+                        <class>ew_themefallbackfix/observer</class>
+                        <method>addFallbackThemesLayoutUpdates</method>
+                    </ew_themefallbackfix>
+                </observers>
+            </core_layout_update_updates_get_after>
+        </events>
+    </frontend>
+</config>

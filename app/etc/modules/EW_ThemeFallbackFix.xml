@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <EW_ThemeFallbackFix>
+            <active>true</active>
+            <codePool>community</codePool>
+        </EW_ThemeFallbackFix>
+    </modules>
+</config>
