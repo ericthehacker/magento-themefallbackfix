@@ -14,8 +14,8 @@ class EW_ThemeFallbackFix_Model_Observer extends Mage_Core_Model_Abstract
         $updates = $observer->getUpdates();
         /* @var $designPackage Mage_Core_Model_Design_Package */
         $designPackage = Mage::getSingleton('core/design_package');
-        /* @var $fallback EW_ThemeFallbackFix_Model_Design_Fallback */
-        $fallback = Mage::getModel('ew_themefallbackfix/design_fallback');
+        /* @var $fallback Mage_Core_Model_Design_Fallback */
+        $fallback = Mage::getModel('core/design_fallback');
 
         $fallbacks = $fallback->getFallbackScheme($designPackage->getArea(), $designPackage->getPackageName(), $designPackage->getTheme('layout'));
 
