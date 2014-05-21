@@ -4,7 +4,7 @@ This module fixes the infinite fallback layout XML update bug as described in th
 
 Install via modman:
 
-1. $ cd <web root>
+1. $ cd *MAGENTO ROOT*
 2. $ modman init #if this web root has never used modman, initialize
 3. $ modman clone https://github.com/ericthehacker/magento-themefallbackfix.git
 4. Flush cache and relax!
