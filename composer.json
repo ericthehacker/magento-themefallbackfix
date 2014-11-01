@@ -2,7 +2,7 @@
     "name": "ericthehacker/magento-themefallbackfix",
     "type": "magento-module",
     "description": "Magento Theme Fallback",
-    "homepage": "na",
+    "homepage": "https://ericwie.se/blog/magento-infinite-theme-fallback-fix",
     "require": {
         "magento-hackathon/magento-composer-installer": "*"
     },
